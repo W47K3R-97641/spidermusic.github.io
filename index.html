@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Music Player" />
+    <meta name="Music Player" content="Techno dj" />
+    <title>Shadow Music</title>
+    <!-- For Render All Element Normal -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- For Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- For Media Query  -->
+    <link rel="stylesheet" href="css/mediaquery.css" />
+    <!-- For FontAwesome Library -->
+    <link rel="stylesheet" href="css/all.css" />
+    <!-- For Google Fonts Api -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <main id="hidden-app">
+        <span class="btn-show"><i class="fa-solid fa-angles-right"></i></span>
+        <!-- Start Loaded -->
+        <span class="loaded" id="loading">
+        <h2>Loading</h2>
+        <span class="bulls"></span>
+        <span class="bulls"></span>
+        <span class="bulls"></span>
+        <span class="bulls"></span>
+        </span>
+        <!-- End Loaded -->
+        <!-- Start Error  -->
+        <div class="error">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <div class="info-error">
+                <h3>Ops Not Found <span class="type">404</span></h3>
+                <p>Not Found Data Artist</p>
+            </div>
+        </div>
+        <!-- End Error  -->
+        <!-- Start Aside -->
+        <aside>
+            <span class="btn-hide"><i class="fa-solid fa-angles-left"></i></span>
+            <span class="logo"><i class="fa-solid fa-spider"></i>Spider Music</span>
+            <ul>
+                <li class="active">Popular</li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Top Charts</a></li>
+                <li><a href="#">Recommend</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="#">Downloads</a></li>
+                <li><a href="#">Playlist</a></li>
+                <li><a href="#">My Playlist</a></li>
+            </ul>
+        </aside>
+        <!-- End Aside -->
+        <!-- Start Section -->
+        <section>
+            <!-- Start Info Section -->
+            <div class="info">
+                <div class="search">
+                    <div class="btn">
+                        <i class="fa-brands fa-searchengin"></i>
+                        <i class="fa-solid fa-xmark" id="cancel-search"></i>
+                    </div>
+                    <input type="search" placeholder="Search For Music, Artist, Songs" />
+                    <ul class="result-search"></ul>
+                </div>
+                <div class="intro-artist">
+                    <div class="slid-artist">
+                        <i id="previous-artist" class="fa-solid fa-arrow-left"></i>
+                        <h1 class="name"></h1>
+                        <i id="next-artist" class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <p class="about"></p>
+                </div>
+                <div class="info-btn">
+                    <button class="random">
+              <i class="fa-solid fa-shuffle"></i> Shuffle
+            </button>
+                    <button class="profile"><i class="fa-regular fa-user"></i></button>
+                </div>
+            </div>
+            <!-- Start Info Section -->
+            <!-- Start Popular -->
+            <div class="popular">
+                <h2>Popular Releases</h2>
+                <div class="songs-item">
+                    <i id="previous-song" class="fa-solid fa-angles-left"></i>
+                    <div class="songs-popular"></div>
+                    <i id="next-song" class="fa-solid fa-angles-right"></i>
+                </div>
+            </div>
+            <!-- End Popular-->
+        </section>
+        <!-- End Section -->
+        <!-- Start Player Audio -->
+        <div class="player">
+            <audio controls type="audio/mpeg" src=""></audio>
+
+            <div class="info-audio-now">
+                <img />
+                <div class="info">
+                    <span class=""></span>
+                    <span class="artist-now"></span>
+                </div>
+            </div>
+
+            <div class="control-audio">
+                <div class="btn-control">
+                    <button>
+              <i id="shuffle" class="fa-solid fa-shuffle"></i>
+            </button>
+                    <button id="previous-audio">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+                    <button id="play-audio">
+              <i id="pause"></i>
+            </button>
+                    <button id="next-audio">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+                    <button>
+              <i id="loop" class="fa-solid fa-rotate-left"></i>
+            </button>
+                </div>
+                <div class="slider-audio">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" name="audio-timeline" value="0" min="0" />
+                    <span class="time-end">03:00</span>
+                </div>
+            </div>
+            <div class="sound-control">
+                <button id="volume" class="not-muted"><i></i></button>
+                <input type="range" name="volume" value="100" min="0" max="100" />
+            </div>
+        </div>
+        <!-- End Player Audio -->
+    </main>
+
+    <script src="script/app.js"></script>
+    <script src="script/sidebare.js"></script>
+</body>
+
+</html>

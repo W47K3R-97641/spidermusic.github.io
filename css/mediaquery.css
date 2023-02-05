@@ -1,0 +1,140 @@
+/* Start Aside  */
+
+@media (max-width: 767px) {
+    main aside {
+        position: absolute;
+        height: 100vh;
+        left: -100%;
+        z-index: 5;
+    }
+    main section .info .search>input:focus {
+        position: sticky;
+        width: calc(100% - 50px);
+    }
+    main section .info .search>input:focus+ul {
+        display: initial;
+        left: -50px;
+        top: -15px;
+        width: calc(100vw + 5px) !important;
+        height: 100vh;
+    }
+}
+
+
+/* End Aside  */
+
+
+/* Start Section  */
+
+@media (max-width: 767px) {
+    main section .info .intro-artist .slid-artist h1 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    main section .info .intro-artist .about {
+        font-size: 10px;
+        max-width: 230px;
+    }
+}
+
+@media (max-width: 767px) {
+    .popular .songs-item {
+        display: flexbox;
+        position: relative;
+        width: fit-content;
+        justify-content: initial;
+        align-items: flex-start;
+        margin: 0;
+    }
+    .popular .songs-item .songs-popular {
+        width: 267.5px;
+    }
+    .popular .songs-item>i {
+        display: none;
+    }
+    .popular .songs-item>i#next-song {
+        right: -33px;
+    }
+    .popular .songs-item>i#previous-song {
+        left: -23px;
+    }
+    main section.sideBarShow {
+        padding: 15px 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .popular .songs-item .songs-popular {
+        width: calc(267.5px * 2);
+    }
+}
+
+@media (min-width: 992px) {
+    .popular .songs-item .songs-popular {
+        width: calc(267.5px * 3);
+    }
+}
+
+@media (min-width: 1200px) {
+    .popular .songs-item .songs-popular {
+        width: calc(267.5px * 4);
+    }
+}
+
+
+/* End Section  */
+
+
+/* Start Audio Player  */
+
+@media (max-width: 767px) {
+    .player {
+        height: 85px;
+    }
+}
+
+@media (max-width: 767px) {
+    .player .info-audio-now img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .player .info-audio-now>.info {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .player .control-audio .btn-control button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .player .control-audio .slider-audio [name="audio-timeline"] {
+        width: 100%;
+    }
+    .player .sound-control {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px !important;
+    }
+    .player .sound-control [name="volume"] {
+        width: 80px !important;
+        margin: 13px auto 0;
+    }
+    .player .sound-control button {
+        width: 80px;
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+}
+
+
+/* End Audio Player  */

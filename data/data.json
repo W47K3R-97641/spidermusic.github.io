@@ -1,0 +1,173 @@
+[{
+        "index": 0,
+        "name": "Alan walker",
+        "songs": [{
+                "name": "Faded",
+                "team": "Alan walker, Iselin Solheim",
+                "vue": "3365483115",
+                "image-song-dir": "./data/data-img/Alan Walker/Faded.jpg",
+                "song-dir": "./data/data-song/Alan Walker/Faded.mp3"
+            },
+            {
+                "name": "Alone",
+                "team": "Alan walker",
+                "vue": "1286570976",
+                "image-song-dir": "./data/data-img/Alan Walker/Alone.jpg",
+                "song-dir": "./data/data-song/Alan Walker/Alone.mp3"
+            },
+            {
+                "name": "The Specter",
+                "team": "Alan walker",
+                "vue": "1040479429",
+                "image-song-dir": "./data/data-img/Alan Walker/The-Specter.jpg",
+                "song-dir": "./data/data-song/Alan Walker/The-Specter.mp3"
+            },
+            {
+                "name": "Sing Me To Sleep",
+                "team": "Alan walker, Iselin Solheim",
+                "vue": "682236463",
+                "image-song-dir": "./data/data-img/Alan Walker/Sing-Me-To-Sleep.jpg",
+                "song-dir": "./data/data-song/Alan Walker/Sing-Me-To-Sleep.mp3"
+            },
+            {
+                "name": "Darkside",
+                "team": "Alan Walker, Au/Ra, Tomine Harket",
+                "vue": "662000695",
+                "image-song-dir": "./data/data-img/Alan Walker/Darkside.jpg",
+                "song-dir": "./data/data-song/Alan Walker/Darkside.mp3"
+            },
+            {
+                "name": "Alone Pt 2",
+                "team": "Alan Walker, Ava Max",
+                "vue": "282240125",
+                "image-song-dir": "./data/data-img/Alan Walker/Alone-Pt2.jpg",
+                "song-dir": "./data/data-song/Alan Walker/Alone Pt 2.mp3"
+            },
+            {
+                "name": "On My Way",
+                "team": "Alan Walker, K-391, Julia Bergan, Seungri",
+                "vue": "441512506",
+                "image-song-dir": "./data/data-img/Alan Walker/On-My-Way.jpg",
+                "song-dir": "./data/data-songAlan Walker//On-My-Way.mp3"
+            },
+            {
+                "name": "Ignite",
+                "team": "Alan Walker, K-391, Julia Bergan, Seungri",
+                "vue": "213195584",
+                "image-song-dir": "./data/data-img/Alan Walker/Ignite.jpg",
+                "song-dir": "./data/data-song/Alan Walker/Ignite.mp3"
+            }
+        ],
+        "intro": "Alan Olav Walker (born 24 August 1997) is a British-born Norwegian DJ, YouTuber and record producer primarily known for the critically acclaimed single 'Faded' (2015), which was certified platinum in 14 countries.",
+        "wallpaper": "./data/Wallpaper/Alan-Walker/Alan-Walker.jpg",
+        "color": "#26c5d3"
+    },
+
+    {
+        "index": 1,
+        "name": "League Of Legends",
+        "songs": [{
+                "name": "Awaken",
+                "team": "League Of Legends",
+                "vue": "213195584",
+                "image-song-dir": "./data/data-img/League-Of-Legends/Awaken.jpg",
+                "song-dir": "./data/data-song/League-Of-Legends/Awaken.mp3"
+            },
+            {
+                "name": "Phoenix",
+                "team": "League Of Legends",
+                "vue": "129297350 ",
+                "image-song-dir": "./data/data-img/League-Of-Legends/Phoenix.jpg",
+                "song-dir": "./data/data-song/League-Of-Legends/Phoenix.mp3"
+            },
+            {
+                "name": "Playground",
+                "team": "League Of Legends",
+                "vue": "36346944",
+                "image-song-dir": "./data/data-img/League-Of-Legends/Playground.jpg",
+                "song-dir": "./data/data-song/League-Of-Legends/Playground.mp3"
+            },
+            {
+                "name": "Rise",
+                "team": "League Of Legends",
+                "vue": "34989855",
+                "image-song-dir": "./data/data-img/League-Of-Legends/Rise.jpg",
+                "song-dir": "./data/data-song/League-Of-Legends/Rise.mp3"
+            },
+            {
+                "name": "Warriors",
+                "team": "League-Of-Legends",
+                "vue": "140121284",
+                "image-song-dir": "./data/data-img/League-Of-Legends/Warriors.jpg",
+                "song-dir": "./data/data-song/League-Of-Legends/Warriors.mp3"
+            },
+            {
+                "name": "Take Over",
+                "team": "League-Of-Legends",
+                "vue": "73753068",
+                "image-song-dir": "./data/data-img/League-Of-Legends/Take-Over.jpg",
+                "song-dir": "./data/data-song/League-Of-Legends/Take-Over.mp3"
+            },
+            {
+                "name": "The Call",
+                "team": "League-Of-Legends",
+                "vue": "1206790385",
+                "image-song-dir": "./data/data-img/League-Of-Legends/The-Call.jpg",
+                "song-dir": "./data/data-song/League-Of-Legends/The-Call.mp3"
+            },
+            {
+                "name": "Legends Never Die",
+                "team": "League-Of-Legends",
+                "vue": "225598529",
+                "image-song-dir": "./data/data-img/League-Of-Legends/Legends-Never-Die.jpg",
+                "song-dir": "./data/data-song/League-Of-Legends/Legends-Never-Die.mp3"
+            }
+        ],
+        "intro": "This Is Music Of League Of Legends Game",
+        "wallpaper": "./data/Wallpaper/League-Of-Legends/League-Of-Legends.jpg",
+        "color": "#c47c39"
+    },
+    {
+        "index": 2,
+        "name": "Bilal",
+        "songs": [{
+                "name": "Cava Cava",
+                "team": "Bilal",
+                "vue": "152127",
+                "image-song-dir": "./data/data-img/Bilal/Cava-Cava.jpg",
+                "song-dir": "./data/data-song/Bilal/Cava-Cava.mp3"
+            },
+            {
+                "name": "Jdoudna",
+                "team": "Bilal",
+                "vue": "2132358",
+                "image-song-dir": "./data/data-img/Bilal/Jdoudna.jpg",
+                "song-dir": "./data/data-song/Bilal/Jdoudna.mp3"
+            },
+            {
+                "name": "Romantique",
+                "team": "Bilal",
+                "vue": "55657789",
+                "image-song-dir": "./data/data-img/Bilal/Romantique.jpg",
+                "song-dir": "./data/data-song/Bilal/Romantique.mp3"
+            },
+            {
+                "name": "Chriki",
+                "team": "Bilal",
+                "vue": "34989855",
+                "image-song-dir": "./data/data-img/Bilal/Chriki.jpg",
+                "song-dir": "./data/data-song/Bilal/Chriki.mp3"
+            },
+            {
+                "name": "Wa3rin",
+                "team": "Bilal",
+                "vue": "120679038",
+                "image-song-dir": "./data/data-img/Bilal/Wa3rin.jpg",
+                "song-dir": "./data/data-song/Bilal/Wa3rin.mp3"
+            }
+        ],
+        "intro": "Bilal Is Singer Of Rai Music From Algeria ",
+        "wallpaper": "./data/Wallpaper/Bilal/Bilal.jpg",
+        "color": "#b40044"
+    }
+]
